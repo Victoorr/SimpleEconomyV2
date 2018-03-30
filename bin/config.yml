@@ -1,0 +1,48 @@
+Geral:
+  # Tamanho da lista do /money top
+  TopTamanho: 3
+  # Tempo para atualizar o top money em segundos
+  AtualizarTop: 300
+  # Tag do magnata
+  TagMagnata: "&2[Magnata] "
+  
+Mensagens:
+  SiMesmo: "&cVocê não pode enviar money para si mesmo!"
+  NaoHaMagnata: "&cNão há magnata atualmente!"
+  MagnataAtual: "&aMagnata atual: &2{magnata} &7({valor} coins)"
+  SemPermissao: "&cVocê não possui permissão para isso!"
+  ValorAdicionado: "&eFoi adicionado ${valor} para {player}."
+  AddArgumento: "&cUse '/money add <jogador> <quantia>'"
+  RemoveArgumento: "&cUse '/money remove <jogador> <quantia>'"
+  SetArgumento: "&cUse '/money set <jogador> <quantia>'"
+  PayArgumento: "&cUse '/money pay <jogador> <quantia>'"
+  ToggleArgumento: "&cUse '/money toggle'"
+  MoneyDoJogador: "&eVocê possui ${valor} coins"
+  MoneyDeOutroJogador: "&e{player} possui ${valor} coins"
+  JogadorNaoEncontrado: "&cJogador não encontrado ou não existe."
+  JogadorMoneySuficiente: "&cVocê não tem money suficiente!"
+  JogadorEnviouMoney: "&eVocê enviou ${valor} para {player}"
+  JogadorRecebeuMoney: "&eVocê recebeu ${valor} de {player}"
+  ValorSetado: "&eNovo salvo de {player} é ${valor}"
+  ValorRemovido: "&eFoi removido ${valor} de {player}."
+  ValorRemovidoMaisDoQueTinha: "&cVocê removeu todo o dinheiro de {player}"
+  ValorPrecisaSerNumero: "&cA quantia precisa ser um número válido."
+  ValorPrecisaSerMaiorQueZero: "&cA quantia precisa ser maior que zero."
+  ValorPrecisaSerMaiorOuIgualAZero: "&cA quantia precisa ser maior ou igual a zero."
+  JogadorAtivouToggle: "&eVocê ATIVOU o recebimento de coins!"
+  JogadorDesativouToggle: "&eVocê DESATIVOU o recebimento de coins!"
+  JogadorNaoEstaRecebendoMoney: "&cEste jogador desativou o recebimento de coins!"
+  TopFormato: "   &f{p}° {magnata}{preffix}&f{player} &7» ({valor} coins)"
+  TopPrefixo:
+  - ''
+  - '               &2&lTOP 10 MAIS RICOS DO SERVIDOR'
+  - '                  &7(Atualizado a cada 5 minutos)'
+  - ''
+
+SQL:
+  Use: false
+  Host: 192.0.0.1
+  User: "v_kills"
+  DB: "v_kills"
+  Password: '28n2waw923m'
+  Port: 3306
